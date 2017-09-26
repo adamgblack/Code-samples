@@ -1,0 +1,579 @@
+img, media {
+  max-width: 100%;
+}
+
+html
+{
+	background-color: #2E3231;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+body 
+{
+	background-color: #FFF;
+	margin: 0px auto;
+	max-width: 1230px;
+}
+
+a
+{
+	color: #700000;
+}
+
+h1
+{
+	font-weight: 400;
+	font-size: 28px;
+	color: #333;
+/*	border-bottom: 4px solid #68850d;*/
+}
+
+h3.block-title
+{
+	font-weight: 400;
+	font-size:24px;
+	color: #fff;
+}
+
+#topbanner form
+{
+	width:100%;
+}
+
+#topbanner a img
+{
+	width: 146px;
+	height: 22px;
+}
+
+#block-nice-menus-1, 
+#block-nice-menus-2, 
+#block-nice-menus-3, 
+#block-superfish-1,
+.block-superfish
+{
+	display:none;
+}
+
+.block-superfish .sf-accordion-toggle, 
+.block-superfish h2
+{
+	display: none;
+}
+
+.l-header
+{
+	height: 121px;
+}
+
+.l-page
+{
+	margin: 0px 100px;
+}
+
+.l-main:after
+{
+content: "";
+display: table;
+clear: both;
+}
+
+.front .l-content article a
+{
+	color: #700000;
+	text-decoration: none;
+}
+
+.block--system-main-menu .menu li, .block--system-user-menu .menu li
+{
+    display:inline;
+}
+
+.block--system-main-menu .menu:before, 
+.block--system-user-menu 
+.menu:before, 
+.l-content:before, 
+.l-region--sidebar-first:before,
+.l-region--sidebar-second:before
+{
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.block--system-main-menu .menu:after, 
+.block--system-user-menu .menu:after, 
+.l-content:after, 
+.l-region--sidebar-first:after,
+.l-region--sidebar-second:after
+{
+  clear:both;
+}
+
+.l-content 
+{
+	width: 65%;
+	float: left;
+	margin-right: -100%;
+	margin-left: 0%;
+	clear: none;
+}
+
+.l-content article.node
+{
+	clear: left;
+	padding-top: 1px;
+}
+
+.l-region--sidebar-second,
+.l-region--sidebar-first
+{
+	width: 34%;
+	float: right;
+	margin-left: 0;
+	margin-right: 0;
+	clear: none;
+	clear: right;
+}
+
+.copyright p a
+{
+	color: #fff;
+}
+
+.product-listing-image img
+{
+	width: 250px;
+	height: auto;
+	max-width: none;
+}
+
+.product-image-list div.form-item-quantity, .product-image-list div.form-item-quantity label
+{
+	display: inline;
+}
+
+.view-product-search-via-taxonomy-term .views-field-body
+{
+	padding-left: 10px;
+}
+
+.view-sub-category-product-search table
+{
+	width: 100%;
+	border: none;
+}
+
+.sub-category-search table tr, .pub-type-search table tr, .pub-category-search table tr
+{
+	height: 40px;
+	border: none;
+}
+
+/* Added those next three selectors to fix the bicolor tables's row borders */
+
+.sub-category-search table tr td, .pub-type-search table tr td, .pub-category-search table tr td
+{
+	border: none;
+}
+
+.sub-category-search table tbody, .pub-type-search table tbody, .pub-category-search table tbody
+{
+	border: none;
+}
+
+
+.sub-category-search table tr.even, .pub-type-search table tr.even, .pub-category-search table tr.even
+{
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px; 
+	border-top-width: 1px; 
+	border-color: #d9d9d9;
+}
+
+
+
+.pub-type-search table thead tr, .pub-category-search table thead tr
+{
+	border-top: 5px solid #68850D;
+}
+
+.pub-type-search .view-header, .pub-category-search .view-header
+{
+	margin: 15px 0px;
+}
+
+.pub-category-search .view-header p
+{
+	display:inline;
+}
+
+.pub-category-search .view-header p:first-child
+{
+	display:block;
+}
+
+.pub-type-search table thead tr th, .pub-category-search table thead tr th
+{
+	background-color: #fff;
+}
+
+.pub-type-search table thead tr th.views-field-sku, .pub-category-search table thead tr th.views-field-sku
+{
+	width: 50px;
+}
+
+.pub-type-search table tr .views-field-sku, .pub-category-search table tr .views-field-sku
+{
+	padding-left: 15px;
+}
+
+.sub-category-search table tr.odd, .pub-type-search table tr.odd, .pub-category-search table tr.odd
+{
+	background-color: #fff; 
+}
+
+.sub-category-search table tr.even, .pub-type-search table tr.even, .pub-category-search table tr.even
+{
+	background-color: #f2f2f2; 
+}
+
+/* Little switch on the next two selectors to adapt the links */
+
+.sub-category-search table tr a, .pub-category-search table tr a
+{
+	text-decoration: underline;
+	color: #700000;
+	padding-left: 10px;
+}
+
+.pub-type-search table tr a
+{
+	text-decoration: none;
+	color: #700000;
+}
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+				Product display styling
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#block-system-main .product-display
+{
+	width: 50%;
+	float: left;
+}
+
+.block-quicktabs
+{
+	width: 50%;
+	float: left;
+	margin-top: 100px;
+}
+
+.block-quicktabs table
+{
+	width: inherit;
+}
+
+.block-quicktabs p
+{
+/*	max-width: 75%;
+	min-width:200px;*/
+}
+
+.product-display table, 
+.product-display table tbody, 
+.product-display table tr, 
+.product-display table td
+{
+	border: none;
+	background-color: #fff;
+}
+
+.product-display table caption
+{
+	font-size:24px;
+	color:#444;
+	padding: 15px 0px;
+	border-bottom: 4px solid #68850d;
+	margin-bottom: 15px;
+}
+
+.product-display table tr td
+{
+	vertical-align: top;
+}
+
+.product-display .product-listing-image img, 
+.product-display .product-listing-image span, 
+.product-display .product-listing-image form
+{
+	padding:10px;
+}
+
+.product-display .product-listing-image form .form-item-quantity, 
+.product-display .product-listing-image form .form-item-quantity label
+{
+	display:inline;
+}
+
+.product-display .product-body
+{
+	padding: 15px;
+}
+
+.product-display .product-body p
+{
+	margin: 0;
+}
+
+.product-display .commerce-add-to-cart .form-submit
+{
+	color: #FFF;
+	background-color: #700000;	
+}
+
+ul.quicktabs-tabs.quicktabs-style-zen li,
+ul.quicktabs-tabs.quicktabs-style-zen li a,
+ul.quicktabs-tabs.quicktabs-style-zen li a:hover
+{
+	background: none;
+	font-weight:normal;
+}
+
+ul.quicktabs-tabs.quicktabs-style-zen li.active,
+ul.quicktabs-tabs.quicktabs-style-zen li.active a
+{
+	font-weight:bold;
+}
+
+/* Reusable button styling 
+.product-display .commerce-add-to-cart .form-submit{
+	font-size: 18px;
+	color: #fff;
+	background-color: #700000;
+	padding: 2px 7px;
+	border: 1px solid #700000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}* /
+
+/* Buy now button for all add to cart forms */
+/*.commerce-add-to-cart .form-submit
+{
+	width: 91px;
+	height: 31px;
+	padding: 0;
+	padding-top: 10px; /* Align with add-to-cart 
+	margin: 0px; /* this centered the button in the block 
+	cursor:pointer;
+	border-style:none;
+	display:inline-block;
+	font-size: 0; /* this makes the default text not show up 
+	background: transparent url('../images/buy-it.png') no-repeat 0 0;
+}*/
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+				Custom drop down menu styling
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#block-views-2b4dac6fe5999115a8eb9433039b8941, #block-views-955796b4e1c3b6e5e697136f840212e6
+{
+	float:left;
+	background-color: #E6EDD6;
+/*	padding-bottom: 25px;*/
+	border-style: solid;
+	border-width: 1px;
+	border-color: #68850D;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#block-views-955796b4e1c3b6e5e697136f840212e6 .block-content
+{
+	padding-left: 20px:
+}
+
+#block-views-955796b4e1c3b6e5e697136f840212e6 .views-widget-filter-tid_1
+{
+	//padding-left: 50px;
+}
+
+#block-views-955796b4e1c3b6e5e697136f840212e6 h2, #block-views-featured-products-block h3
+{
+	margin-top: 0px;
+	padding: 15px;
+	background-color: #68850d;
+	color: #fff;
+	font-weight: normal;
+}
+
+#block-views-featured-products-block
+{
+	clear: left;
+}
+
+#views-exposed-form-sub-category-product-search-page,
+#views-exposed-form-product-search-via-product-type-page,
+#views-exposed-form-product-search-via-product-type-page-2{
+    padding: 20px 10px;
+}
+
+
+#views-exposed-form-sub-category-product-search-page .form-type-select,
+#views-exposed-form-product-search-via-product-type-page .form-type-select,
+#views-exposed-form-product-search-via-product-type-page-1 .form-type-select,
+#views-exposed-form-product-search-via-product-type-page-2 .form-type-select {
+    font-size: 1em;
+}
+
+#views-exposed-form-sub-category-product-search-page .form-type-select .form-select, 
+#views-exposed-form-product-search-via-product-type-page .form-type-select .form-select,
+#views-exposed-form-product-search-via-product-type-page-1 .form-type-select .form-select,
+#views-exposed-form-product-search-via-product-type-page-2 .form-type-select .form-select {
+    font-size: inherit; /* inherit size from .custom-dropdown */
+    padding: .5em; /* add some space*/
+    margin: 0; /* remove default margins */
+}
+
+#views-exposed-form-sub-category-product-search-page .form-type-select .form-select,
+#views-exposed-form-product-search-via-product-type-page .form-type-select .form-select,
+#views-exposed-form-product-search-via-product-type-page-1 .form-type-select .form-select,
+#views-exposed-form-product-search-via-product-type-page-2 .form-type-select .form-select {
+    background-color: #fff;
+    color: #444;    
+}
+
+#views-exposed-form-sub-category-product-search-page .views-submit-button .form-submit,
+#views-exposed-form-product-search-via-product-type-page .views-submit-button .form-submit,
+#views-exposed-form-product-search-via-product-type-page-1 .views-submit-button .form-submit,
+#views-exposed-form-product-search-via-product-type-page-2 .views-submit-button .form-submit
+{
+	color: #fff;
+	background-color: #000;
+	height: 30px;
+}
+
+@supports (pointer-events: none) and
+      ((-webkit-appearance: none) or
+      (-moz-appearance: none) or
+      (appearance: none)) 
+{
+
+    #views-exposed-form-sub-category-product-search-page .form-type-select,
+		#views-exposed-form-product-search-via-product-type-page .form-type-select,
+		#views-exposed-form-product-search-via-product-type-page-1 .form-type-select,
+		#views-exposed-form-product-search-via-product-type-page-2 .form-type-select {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #views-exposed-form-sub-category-product-search-page .form-type-select .form-select,
+		#views-exposed-form-product-search-via-product-type-page .form-type-select .form-select,
+		#views-exposed-form-product-search-via-product-type-page-1 .form-type-select .form-select,
+		#views-exposed-form-product-search-via-product-type-page-2 .form-type-select .form-select {
+        padding: .5em 2.5em .5em 1em; /* accommodate with the pseudo elements for the dropdown arrow */
+        border-width: 1px;
+        border-radius: 0px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;    
+		 width: 260px;
+    }
+	
+	#views-exposed-form-product-search-via-product-type-page-1 .form-type-select .form-select
+	{
+		width: 180px;	
+	}
+
+    #views-exposed-form-sub-category-product-search-page .form-type-select::before,
+    #views-exposed-form-sub-category-product-search-page .form-type-select::after,
+		#views-exposed-form-product-search-via-product-type-page .form-type-select::before,
+		#views-exposed-form-product-search-via-product-type-page .form-type-select::after,
+		#views-exposed-form-product-search-via-product-type-page-1 .form-type-select::before,
+		#views-exposed-form-product-search-via-product-type-page-1 .form-type-select::after,
+		#views-exposed-form-product-search-via-product-type-page-2 .form-type-select::before,
+		#views-exposed-form-product-search-via-product-type-page-2 .form-type-select::after {
+        content: "";
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #views-exposed-form-sub-category-product-search-page .form-type-select::after, 
+		#views-exposed-form-product-search-via-product-type-page .form-type-select::after,
+		#views-exposed-form-product-search-via-product-type-page-1 .form-type-select::after,
+		#views-exposed-form-product-search-via-product-type-page-2 .form-type-select::after{ /*  Custom dropdown arrow */
+        content: "\25BC";
+        height: 1em;
+        font-size: 15px;
+		 line-height: 1;
+		 right: 11px;
+        top: 50%; margin-top: -.5em;
+    }
+
+    #views-exposed-form-sub-category-product-search-page .form-type-select::before, 
+		#views-exposed-form-product-search-via-product-type-page .form-type-select::before,
+		#views-exposed-form-product-search-via-product-type-page-1 .form-type-select::before,
+		#views-exposed-form-product-search-via-product-type-page-2 .form-type-select::before { /*  Custom dropdown arrow cover */
+        width: 37px;
+        right: 0;
+		 top: 0;
+		 bottom: 0;
+        border-radius: 0px;
+    }
+
+    #views-exposed-form-sub-category-product-search-page .form-type-select .form-select[disabled], 
+		#views-exposed-form-product-search-via-product-type-page .form-type-select .form-select[disabled], 
+		#views-exposed-form-product-search-via-product-type-page-1 .form-type-select .form-select[disabled],
+		#views-exposed-form-product-search-via-product-type-page-2 .form-type-select .form-select[disabled] {
+        color: rgba(0,0,0,.3);
+    }
+/*
+    .custom-dropdown.custom-dropdown--disabled::after {
+        color: rgba(0,0,0,.1);
+    }*/
+
+    /* White dropdown style */
+    #views-exposed-form-sub-category-product-search-page .form-type-select::before, 
+		#views-exposed-form-product-search-via-product-type-page .form-type-select::before, 
+		#views-exposed-form-product-search-via-product-type-page-1 .form-type-select::before ,
+		#views-exposed-form-product-search-via-product-type-page-2 .form-type-select::before {
+        top: 2px; 
+				bottom: 2px;
+        background-color: #000;
+        border-left: 1px solid rgba(0,0,0,.1);
+    }
+
+    #views-exposed-form-sub-category-product-search-page .form-type-select::after, 
+		#views-exposed-form-product-search-via-product-type-page .form-type-select::after, 
+		#views-exposed-form-product-search-via-product-type-page-1 .form-type-select::after, 
+		#views-exposed-form-product-search-via-product-type-page-2 .form-type-select::after {
+        color: #FFF;
+    }
+
+    /* FF only temp fix */
+    @-moz-document url-prefix() {
+        #views-exposed-form-sub-category-product-search-page .form-type-select .form-select, 
+		 #views-exposed-form-product-search-via-product-type-page .form-type-select .form-select, 
+		 #views-exposed-form-product-search-via-product-type-page-1 .form-type-select .form-select,
+		 #views-exposed-form-product-search-via-product-type-page-2 .form-type-select .form-select 
+		 {
+		 	padding-right: .9em;
+		 }
+    }
+}

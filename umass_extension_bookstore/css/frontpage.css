@@ -1,0 +1,155 @@
+.front .node-readmore 
+{
+	display: none;
+}
+
+.front article h1
+{
+	border: none;
+}
+
+.front article
+{
+	font-size: 18px;
+}
+
+#block-system-main, #block-system-main article
+{
+ margin: 0px;	
+}
+
+.featured-products-front-page .featured-product-item
+{
+	float: left;
+	width: 31%;
+	margin: 0 1%;
+	display: inline;
+	line-height: 14px;
+}
+
+.featured-products-front-page h1
+{
+	background-color: #68850d;
+	padding: 10px;
+}
+
+.featured-products-front-page h3
+{
+	margin: 0px;
+}
+
+.featured-products-front-page .view-content
+{
+	float: left;
+	margin-top: 20px;
+}
+
+.featured-products-front-page .featured-product-price
+{
+	float: left;
+	margin-right: 5px;
+	font-size:12px;
+	margin-top:10px;
+}
+
+.featured-products-front-page .featured-project-add-to-cart
+{
+	float: left;
+	clear: both;
+	margin-top: 10px;
+}
+
+.featured-products-front-page .frontpage-book-titles
+{
+	font-size: 18px;
+	color: #333;
+}
+
+.featured-products-front-page .frontpage-book-titles a
+{
+	color: #333;
+	font-size:14px;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.featured-products-front-page .frontpage-book-images
+{
+	text-align: left;
+	width: 100%;
+	padding-bottom: 75%;
+	position: relative;
+}
+
+.featured-products-front-page .frontpage-book-images > img
+{
+	position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.featured-products-front-page
+{
+	margin: 5px 0px;
+	/* padding: 15px; moved to "view-header" so it won't affect the view-display */
+	background-color: #68850d;
+}
+
+.featured-products-front-page .view-header
+{
+	padding: 8px 35px;
+}
+
+.featured-products-front-page-flipped
+{
+	float: left;
+}
+
+.featured-products-front-page-flipped .featured-project-add-to-cart .form-submit 
+{
+	font-size: 12px;
+	color: #fff;
+	background-color: #700000;
+}
+
+.featured-products-front-page-flipped .view-header h3
+{
+	margin-top: 0px;
+	padding: 15px;
+	background-color: #68850d;
+	color: #fff;
+	font-weight: normal;
+}
+
+.featured-products-front-page-flipped .views-field-field-product-image
+{
+	
+}
+
+.featured-products-front-page-flipped table
+{
+	margin:0;
+	border-color:transparent;
+	background-color:#FFF;
+}
+
+.featured-products-front-page-flipped table td
+{
+	width: 33%;
+	border-color:transparent;
+}
+
+.featured-products-front-page-flipped tr
+{
+	border-color:transparent;
+}
+
+.featured-products-front-page-flipped tr.even,
+.featured-products-front-page-flipped tr:nth-child(2n+2) 
+{
+	background-color: #FFF;
+}
+
+.featured-products-front-page-flipped table th
+{
+	display: none;
+}

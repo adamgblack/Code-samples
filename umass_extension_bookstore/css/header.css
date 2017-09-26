@@ -1,0 +1,15 @@
+#topbanner label
+{
+	display: inline;
+}
+
+.site-header-logo
+{
+	float: left;
+	padding-top: 10px;
+}
+
+.cafe-logo
+{
+	float: right;
+}

@@ -1,0 +1,429 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* Increase the body font size on small touch devices */
+body {
+  font-size: 100%;
+}
+
+#main-content
+{
+	margin: 0px;	
+}
+
+/* =============================================================================
+ *   Mobile Menu Toggle
+ *   See your theme settings extensions for how to enable the menu toggle.
+ *   These are example styles for the menu toggle menu, you can use these in the
+ *   relevant responsive stylesheets as required. Modify to suit your design.
+ * ========================================================================== */
+/* The toggle link */
+.at-mt .at-menu-toggle h2 {
+  margin-bottom: 5px;
+}
+
+.at-mt .at-menu-toggle h2 a {
+  background: #eee;
+  border: 2px solid #ccc;
+  padding: 2px 10px;
+}
+
+/* Menu items */
+.at-mt .at-menu-toggle ul.menu li a {
+  background: #eee;
+  border-bottom: 1px solid #fff;
+}
+
+.front article
+{
+	width: 90%;
+	padding:5%;
+}
+
+#block-system-main-menu, 
+#block-system-user-menu, 
+#block-search-form, 
+#block-views-browse-by-category-block, 
+#block-views-browse-by-type-block, 
+#block-menu-menu-services, 
+#block-views-cc7cce1b62cc925b12839c4aa7d834e4, 
+#block-views-955796b4e1c3b6e5e697136f840212e6,
+#block-views-exp-custom-search-page
+{
+	display: none;
+}
+
+#block-superfish-1,
+#block-superfish-2,
+#block-superfish-3
+{
+	display: block;
+	float: left;
+	margin-bottom:0px;
+}
+
+#block-superfish-1
+{
+	width: 100%;
+}
+
+#block-superfish-1 ul.sf-menu-mobile-main-menu
+{
+	width: 100%;
+	text-align: center;
+}
+
+#block-superfish-1 ul.sf-menu-mobile-main-menu li.sf-depth-1
+{
+	width: 33%;
+	text-align: center;
+}
+
+#block-superfish-1 ul.sf-menu-mobile-main-menu li.first
+{
+	width: 34%;
+	text-align: center;
+}
+
+#block-superfish-1 ul.sf-menu-mobile-main-menu li.sf-depth-2
+{
+	width: 100%;
+	background: none;
+}
+
+#block-superfish-1 ul.sf-menu-mobile-main-menu li.sf-depth-2 .view-custom-search input.form-text
+{
+	width: 100%;
+	height: 35px;
+}
+
+#block-superfish-1 ul li.middle ul
+{
+	left: -90%;
+	width:auto;
+	background-color: #E6EDD6;
+	padding: 0px 5px 5px 5px !important;
+	border: 1px solid #68850d;
+	border-top: none;
+}
+
+#views-exposed-form-custom-search-page-1 .views-exposed-form .views-exposed-widgets .views-exposed-widget,
+#views-exposed-form-product-search-via-product-type-page-1 .views-exposed-form .views-exposed-widgets .views-exposed-widget
+{
+	padding: 0px;
+	padding-top: 5px;
+}
+
+#views-exposed-form-custom-search-page-1 .views-exposed-form .views-exposed-widgets .views-widget-filter-combine
+{
+	width: 75%;
+}
+
+#block-superfish-1 .menu-views .view-content,
+#block-superfish-1 .menu-views .view-header,
+#block-superfish-1 .sf-clone-parent,
+#block-superfish-2 .sf-clone-parent,
+#block-superfish-3 .sf-clone-parent
+{
+	display: none;
+}
+
+#block-superfish-2,
+#block-superfish-3
+{
+	width:50%;
+	font-size: 12px;
+	clear:none;
+}
+
+#block-superfish-2 ul,
+#block-superfish-2 ul li,
+#block-superfish-3 ul,
+#block-superfish-3 ul li
+{
+	width: 100%;
+	text-align: left;
+}
+
+#block-superfish-1 span,
+#block-superfish-1 a
+{
+	line-height: 2.5em;
+	padding: 0px 10px;	
+}
+
+#block-superfish-1 .sf-menu.sf-style-default a,
+#block-superfish-1 .sf-menu.sf-style-default a:visited,
+#block-superfish-1 .sf-menu.sf-style-default span.nolink 
+{
+  border: none;
+  color: #fff;
+  background-color: #68850d;
+}
+
+#block-superfish-2 .sf-menu.sf-style-default .sf-depth-1 a,
+#block-superfish-2 .sf-menu.sf-style-default .sf-depth-1 a:visited,
+#block-superfish-2 .sf-menu.sf-style-default .sf-depth-1 span.nolink,
+#block-superfish-3 .sf-menu.sf-style-default .sf-depth-1 a,
+#block-superfish-3 .sf-menu.sf-style-default .sf-depth-1 a:visited,
+#block-superfish-3 .sf-menu.sf-style-default .sf-depth-1 span.nolink 
+{
+  border: none;
+  border-top: 2px solid #fff;
+  color: #fff;
+  background-color: #333;
+}
+
+#block-superfish-2 .sf-menu.sf-style-default .sf-depth-2 a,
+#block-superfish-2 .sf-menu.sf-style-default .sf-depth-2 a:visited,
+#block-superfish-2 .sf-menu.sf-style-default .sf-depth-2 span.nolink,
+#block-superfish-2 .sf-menu.sf-style-default .sf-depth-2 .menuparent,
+#block-superfish-2 .sf-menu.sf-style-default .sf-depth-2 .sf-clone-parent .menuparent,
+#block-superfish-3 .sf-menu.sf-style-default .sf-depth-2 a,
+#block-superfish-3 .sf-menu.sf-style-default .sf-depth-2 a:visited,
+#block-superfish-3 .sf-menu.sf-style-default .sf-depth-2 span.nolink,
+#block-superfish-3 .sf-menu.sf-style-default .sf-depth-2 .menuparent, 
+#block-superfish-3 .sf-menu.sf-style-default .sf-depth-2 .sf-clone-parent .menuparent 
+{
+  border: none;
+}
+
+#block-superfish-2 .sf-menu.sf-style-default li,
+#block-superfish-3 .sf-menu.sf-style-default li
+{
+	background: url(/sites/default/files/cart.png) no-repeat scroll 0 0;
+	background-position: 10px;
+	background-repeat: no-repeat;
+}
+
+#block-nice-menus-1
+{
+	display:inline;
+	float:left;
+	clear:right;
+	margin-bottom:2px;
+	width:100%;
+	z-index:11;
+}
+
+#block-nice-menus-1 ul li
+{
+	width:106px;
+	z-index:11;
+}
+
+#block-nice-menus-1 ul li.first
+{
+	width:108px;
+	z-index:11;
+}
+
+#block-nice-menus-1 .nice-menu li
+{
+	list-style-image: none;
+	list-style-type: none;
+	margin-left: 0;
+	white-space: nowrap;
+	display: inline;
+	float: left;
+	border: none;
+	padding: 0px;
+	z-index:11;
+}
+
+#block-nice-menus-1 ul.nice-menu
+{
+	padding:0;
+	z-index:11;
+}
+
+#block-nice-menus-1 ul.nice-menu a
+{
+	display: block;
+	padding: 6px 20px;
+	padding-top: 12px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	background-color:#555;
+	border: none;
+	z-index:11;
+}
+
+#block-nice-menus-1 ul.nice-menu li.first a
+{
+	text-indent:20px;
+	background: url(/sites/default/files/mobile-menu.png) no-repeat scroll 0 0;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-color:#555;
+	z-index:11;
+}
+
+#block-nice-menus-1 ul.nice-menu li.first ul
+{
+	z-index:11;
+}
+
+#block-nice-menus-1 ul.nice-menu li.first ul li
+{
+	width:100%;
+	z-index:11;
+}
+
+#block-nice-menus-1 ul.nice-menu li.first ul li a
+{
+	text-indent:0px;
+	background: none;
+	background-color:#555;
+}
+
+#block-nice-menus-2, #block-nice-menus-3
+{
+	display:inline;
+	float:left;
+	width:50%;
+	z-index:10;
+}
+
+#block-nice-menus-2 ul.nice-menu, #block-nice-menus-3 ul.nice-menu
+{
+	padding:0;
+	width: 100%;
+}
+
+
+#block-nice-menus-2 ul.nice-menu li, #block-nice-menus-3 ul.nice-menu li
+{
+	list-style-image: none;
+	list-style-type: none;
+	margin-left: 0;
+	white-space: nowrap;
+	display: inline;
+	float: left;
+	border: none;
+	padding: 0px;
+	width: 100%;
+}
+#block-nice-menus-2 ul.nice-menu li a, #block-nice-menus-3 ul.nice-menu li a
+{
+	display: block;
+	padding: 6px 10px;
+	padding-top: 12px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+	background-color:#555;
+	border: none;
+	text-indent:-10px;
+	background: url(/sites/default/files/arrow-down.png) no-repeat scroll 0 0;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color:#555;
+}
+
+#block-nice-menus-2 ul.nice-menu li.first ul, #block-nice-menus-3 ul.nice-menu li.first ul
+{
+	top: 36px;
+	border:none;
+}
+
+#block-nice-menus-3 ul.nice-menu li.first ul
+{
+	left: -7px;
+}
+
+#block-nice-menus-2 ul.nice-menu li.first ul li, #block-nice-menus-3 ul.nice-menu li.first ul li
+{
+	width:100%;
+	z-index:10;
+}
+
+#block-nice-menus-2 ul.nice-menu li.first ul li a, #block-nice-menus-3 ul.nice-menu li.first ul li a
+{
+	text-indent:0px;
+	background: none;
+	background-color:#555;
+}
+
+#block-views-exp-custom-search-mobile
+{
+	display: inline;	
+}
+
+#block-views-exp-custom-search-mobile .form-item .form-text
+{
+	width: 200px;
+	margin-left: 25px;
+}
+
+#block-system-main-menu ul.menu a, #block-system-user-menu ul.menu a
+{
+	font-size: 14px;
+	padding: 6px 10px;
+}
+
+.site-header-logo 
+{
+	float: left;
+	padding-top: 2%;
+	padding-right: 2%;
+	width: 35%;
+}
+
+.cafe-logo
+{
+	float:right;
+}
+
+.cafe-logo img
+{
+	width: 150px;
+}
+
+
+#footer 
+{
+	background-color: #2E3231;
+	color: #FFF;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#footer a, #footer a:visited
+{
+	color: #FFF;
+	text-decoration:underline;
+}
+	
+#footer .block
+{
+	margin:0px;
+}
+	
+#footer img
+{
+	padding:0px;
+	width: 40%;
+	padding-left: 10%;
+}
+	
+#footer p
+{
+	float:left;
+}
+	
+#footer table
+{
+	font-size:12px;
+	float:right;
+	width:50%;
+}

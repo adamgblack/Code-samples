@@ -1,0 +1,156 @@
+.region-sidebar-first h2,
+.region-sidebar-second h2
+{
+background-color: #700000;
+color: #FFF;
+margin: 0px;
+padding: 10px 0px;
+width: 300px;
+text-indent:10px;
+font-weight:normal;
+}
+
+#block-system-user-menu, #block-search-form, #block-views-browse-by-category-block, #block-views-browse-by-type-block, #block-menu-menu-services, #block-views-exp-custom-search-page
+{
+	float:left;
+	clear:both;
+	margin: 0px 0px 15px 0px;
+}
+
+#search-block-form .form-item .form-text, 
+#block-views-exp-custom-search-page .form-item .form-text,
+#block-views-exp-custom-search-mobile .form-item .form-text
+{
+	width: 256px;
+	height: 36px;
+	border: 1px solid #000;
+	font-size: 16px;
+}
+
+#search-block-form .form-actions .form-submit, 
+#block-views-exp-custom-search-page .views-exposed-widget .form-submit, 
+#views-exposed-form-custom-search-page-1 .views-exposed-widget .form-submit,
+#block-views-exp-custom-search-mobile .views-exposed-widget .form-submit
+{
+	width: 40px;
+	height: 40px;
+	padding: 11px 0px 0px 0px;
+	margin: 0px 0px 0px -6px; /* this centered the button in the block */
+	cursor:pointer;
+	border-style:none;
+	display:inline;
+	font-size: 0; /* this makes the default text not show up */
+	background: #333 url('../images/magnifying-glass-right-bg.png') no-repeat 0 0;
+}
+
+#block-views-exp-custom-search-page .views-exposed-widget
+{
+	padding:0px;
+}
+
+#block-system-main-menu .menu li, #block-system-user-menu .menu li
+{
+	list-style-image: none;
+	list-style-type: none;
+	margin-left: 0;
+	white-space: nowrap;
+	display: inline;
+	float: left;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #FFF;
+	border-right-width: 1px;
+	padding: 0px;
+}
+
+#block-system-main-menu ul.menu, #block-system-user-menu ul.menu
+{
+padding:0;
+}
+
+#block-system-main-menu ul.menu a, #block-system-user-menu ul.menu a
+{
+display: block;
+padding: 6px 20px;
+padding-top: 12px;
+font-size: 20px;
+text-decoration: none;
+color: #fff;
+background-color:#555;
+border-left: 1px #fff;
+}
+
+#block-system-user-menu ul.menu a
+{
+	background-color: #700000;
+}
+
+#block-system-main-menu .menu li.first a
+{
+	width: 30px;
+	text-indent: -9999px;
+	background: url(/sites/default/files/cafe-home-icon.png) no-repeat scroll 0 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color:#555;
+}
+
+#block-system-user-menu .menu li.last a
+{
+	width: 120px;
+	text-indent: 35px;
+	background: url(/sites/default/files/cart.png) no-repeat scroll 0 0;
+	background-position: 10px;
+	background-repeat: no-repeat;
+	background-color:#700000;
+}
+
+.menu
+{
+	padding: 0px;
+}
+
+.leaf{
+	border: solid 0.1em #e6edd6;
+}
+
+.category-list, .type-list, #block-menu-menu-services .menu
+{
+	padding-left: 0;
+	width: 95%;
+	margin: 10px 0px;
+}
+
+.category-list li, .type-list li, #block-menu-menu-services .menu li
+{
+	list-style:none;
+	margin-left: 3px !important;
+	padding-left: 4px;
+}
+
+.browse-by-category .category-item, .browse-by-type .type-item, #block-menu-menu-services .menu li
+{
+	margin: 5px 0px;
+	padding: 0 8px;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #999;
+}
+
+.browse-by-category .category-list .views-row-last .category-item, .browse-by-type .type-list .views-row-last .type-item, #block-menu-menu-services .menu li.last
+{
+	border-width: 0px;
+}
+
+.category-item a, .type-item a, #block-menu-menu-services .menu li a
+{
+	text-decoration:none;
+	color: #333;
+	font-size: 20px;
+}
+
+#block-views-exp-custom-search-mobile
+{
+	display: none;	
+}
